@@ -1,0 +1,166 @@
+/*main*/
+
+div.wrapper{
+    max-width: 1220px;
+	margin: 0 auto;
+    background-color:rgb(135, 233, 250);
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Love Ya Like A Sister', georgia;
+    font-size: 50px;
+    background-image: url("fbanner.png");
+    background-size: cover;
+    border: 5px solid black;
+    padding-bottom: 100px;
+}
+
+body {
+    background-image: url("fixedbackground.png");
+    background-size: cover;
+}
+
+ul#topnavbar{
+    padding: 20px;
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    border: 5px solid black;
+    width: auto;
+}
+ul#topnavbar li{
+    padding: 50px;
+    float: top;
+    display: inline;
+}
+ul#topnavbar a{
+    margin-right: 5px;
+    border: solid 2px;
+    padding: 10px 25px 10px 25px;
+    text-decoration: none;
+    background-color: rgb(32, 151, 255);
+    text-align: center;
+}
+
+#sidebar {
+    width: 300px;
+}
+
+ul#sidenavbar {
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: left;
+    border: 5px solid black;
+    padding: 10px;
+    margin: 0;
+    height: 500px;
+    width: 210px;
+    list-style-type: none;
+}
+
+ul#sidenavbar li{
+    padding: 5px;
+    display:left;
+}
+
+ul#sidenavbar a{
+    width: 300px;
+    margin-left: 20px;
+}
+
+
+ #col1 {
+    position:absolute;
+    top: 334px;
+    left: 600px;
+    width: 20%;
+
+}
+
+ #col2 {
+    position:absolute;
+    top: 334px;
+    left: 1100px;
+    width: 20%;
+
+}
+
+.sectiontext, td, th {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+}
+
+#contactform {
+    position: absolute;
+    top: 334px;
+    left: 600px;
+}
+
+label{
+    margin-left: 1em;
+    float:left;
+    width: 6em;
+}
+
+#contactinfo{
+    position:absolute;
+    top: 734px;
+    left: 600px;
+}
+
+ .petpage {
+    width: 200px;
+    height: 150px;
+}
+
+h3 {text-align: center;}
+
+ .row1 {
+    position:absolute;
+    top: 334px;
+}
+ .row2 {
+    position:absolute;
+    top: 634px;
+}
+
+#petimg1 {left: 600px;}
+#petimg2 {left: 900px;}
+#petimg3 {left: 1200px;}
+
+#petimg4 {left: 600px;}
+#petimg5 {left: 900px;}
+#petimg6 {left: 1200px;}
+
+table{
+    background-color: white;
+    position:absolute;
+    top: 434px;
+    left: 600px;
+    border: solid 5px black;
+}
+
+th {text-align: left;}
+
+td, th{
+    padding: 5px;
+    width: 130px;
+}
+
+#shelterText {
+    position: absolute;
+    top: 334px;
+    left: 600px;
+}
+
+#dogBanner{
+    width: 855px;
+    height: 180px;
+    position: absolute;
+    top: 680px;
+    left: 600px;
+    border: solid 5px black
+}
